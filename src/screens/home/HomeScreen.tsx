@@ -9,12 +9,14 @@ import Colors from '../../theme/Colors';
 
 import HomeHeader from './components/HomeHeader';
 import SearchBar from './components/SearchBar';
+import CategoryList from './components/CategoryList';
 
 const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <HomeHeader />
       <SearchBar />
+      <CategoryList />
     </SafeAreaView>
   );
 };
