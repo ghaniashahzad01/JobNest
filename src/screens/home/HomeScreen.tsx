@@ -8,11 +8,13 @@ import {
 import Colors from '../../theme/Colors';
 
 import HomeHeader from './components/HomeHeader';
+import SearchBar from './components/SearchBar';
 
 const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <HomeHeader />
+      <SearchBar />
     </SafeAreaView>
   );
 };
